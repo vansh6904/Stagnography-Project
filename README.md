@@ -17,18 +17,12 @@ hashlib (included in Python standard library)
 
 Installation
 
-Clone this repository:
-
-bashCopygit clone https://github.com/yourusername/image-steganography.git
-cd image-steganography
-
 Install required packages:
 
 bashCopypip install opencv-python numpy
-Files
-
-stego_encrypt.py: Script for hiding messages in images
-stego_decrypt.py: Script for extracting hidden messages
+File 
+encrypt.py: Script for hiding messages in images
+decrypt.py: Script for extracting hidden messages
 README.md: This documentation file
 
 Usage
@@ -36,7 +30,7 @@ Encryption
 
 Run the encryption script:
 
-bashCopypython stego_encrypt.py
+bashCopypython encrypt.py
 
 Follow the prompts:
 
@@ -51,7 +45,7 @@ Decryption
 
 Run the decryption script:
 
-bashCopypython stego_decrypt.py
+bashCopypython decrypt.py
 
 Follow the prompts:
 
